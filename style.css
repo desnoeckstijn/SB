@@ -152,4 +152,73 @@ footer {
     .hero-image {
         text-align: center;
     }
+
+    
+}
+/* Style voor de over-mij pagina */
+
+.over-mij-hero {
+    display: flex; /* Zet de hero sectie in flexbox */
+    align-items: center; /* Centreer verticaal */
+    padding: 50px;
+    background-color: #f4ede7; /* Een subtiele achtergrondkleur */
+}
+
+.over-mij-hero-content {
+    flex: 1;  /* Laat de content de beschikbare ruimte innemen */
+    padding-right: 30px;
+}
+
+.over-mij-hero-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.over-mij-hero-content p {
+    margin-bottom: 25px;
+}
+
+.over-mij-hero-image {
+    flex: 1;  /* Laat de afbeelding de beschikbare ruimte innemen */
+    text-align: right;
+}
+
+.over-mij-hero-image img {
+    max-width: 100%; /* Maak de afbeelding responsive */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optioneel: voeg een subtiele schaduw toe */
+}
+
+.over-mij-content {
+    padding: 50px;
+    text-align: left; /* Of center, afhankelijk van je voorkeur */
+}
+
+.over-mij-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 1px solid #eee;  /* Optioneel: voeg een lijn toe onder de titels */
+    padding-bottom: 10px;
+}
+
+/* Responsive Design aanpassingen voor de Over Mij pagina */
+@media (max-width: 768px) {
+    .over-mij-hero {
+        flex-direction: column; /* Stapel de elementen verticaal */
+        text-align: center;
+    }
+
+    .over-mij-hero-content {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .over-mij-hero-image {
+        text-align: center;
+    }
 }
