@@ -25,7 +25,7 @@ header {
 
 .logo img {
     margin-right: 10px; /* Afstand tussen logo en tagline */
-    max-width: 50px; /* Stel een maximale breedte in voor het logo */
+    max-width: 100px; /* Stel een maximale breedte in voor het logo */
 }
 
 nav ul {
